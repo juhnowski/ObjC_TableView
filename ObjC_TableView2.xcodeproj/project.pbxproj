@@ -13,6 +13,11 @@
 		09B394A820F52C8600C5863B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B394A720F52C8600C5863B /* Assets.xcassets */; };
 		09B394AB20F52C8600C5863B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B394A920F52C8600C5863B /* LaunchScreen.storyboard */; };
 		09B394AE20F52C8600C5863B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B394AD20F52C8600C5863B /* main.m */; };
+		09B394B620F52CE400C5863B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B394B520F52CE400C5863B /* TableViewCell.m */; };
+		09B394B920F52F1D00C5863B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B394B820F52F1D00C5863B /* TableViewController.m */; };
+		09B394BD20F5330100C5863B /* plotva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09B394BA20F5330000C5863B /* plotva.jpg */; };
+		09B394BE20F5330100C5863B /* shuka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09B394BB20F5330000C5863B /* shuka.jpg */; };
+		09B394BF20F5330100C5863B /* okun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09B394BC20F5330100C5863B /* okun.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,13 @@
 		09B394AA20F52C8600C5863B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09B394AC20F52C8600C5863B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B394AD20F52C8600C5863B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09B394B420F52CE400C5863B /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		09B394B520F52CE400C5863B /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		09B394B720F52F1D00C5863B /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		09B394B820F52F1D00C5863B /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		09B394BA20F5330000C5863B /* plotva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plotva.jpg; sourceTree = "<group>"; };
+		09B394BB20F5330000C5863B /* shuka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shuka.jpg; sourceTree = "<group>"; };
+		09B394BC20F5330100C5863B /* okun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = okun.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,13 @@
 				09B394A920F52C8600C5863B /* LaunchScreen.storyboard */,
 				09B394AC20F52C8600C5863B /* Info.plist */,
 				09B394AD20F52C8600C5863B /* main.m */,
+				09B394B420F52CE400C5863B /* TableViewCell.h */,
+				09B394B520F52CE400C5863B /* TableViewCell.m */,
+				09B394B720F52F1D00C5863B /* TableViewController.h */,
+				09B394B820F52F1D00C5863B /* TableViewController.m */,
+				09B394BC20F5330100C5863B /* okun.jpg */,
+				09B394BA20F5330000C5863B /* plotva.jpg */,
+				09B394BB20F5330000C5863B /* shuka.jpg */,
 			);
 			path = ObjC_TableView2;
 			sourceTree = "<group>";
@@ -128,9 +147,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B394BE20F5330100C5863B /* shuka.jpg in Resources */,
 				09B394AB20F52C8600C5863B /* LaunchScreen.storyboard in Resources */,
 				09B394A820F52C8600C5863B /* Assets.xcassets in Resources */,
 				09B394A620F52C8500C5863B /* Main.storyboard in Resources */,
+				09B394BF20F5330100C5863B /* okun.jpg in Resources */,
+				09B394BD20F5330100C5863B /* plotva.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B394A320F52C8500C5863B /* ViewController.m in Sources */,
+				09B394B620F52CE400C5863B /* TableViewCell.m in Sources */,
 				09B394AE20F52C8600C5863B /* main.m in Sources */,
+				09B394B920F52F1D00C5863B /* TableViewController.m in Sources */,
 				09B394A020F52C8500C5863B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
