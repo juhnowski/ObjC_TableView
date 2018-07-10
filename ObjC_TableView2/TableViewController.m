@@ -8,6 +8,7 @@
 
 #import "TableViewController.h"
 #import "TableViewCell.h"
+#import "DetailViewController.h"
 
 @interface TableViewController ()
 
@@ -95,14 +96,20 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+    if([[segue identifier] isEqualToString:@"ShowDetails"]){
+        DetailViewController *detailView = [segue destinationViewController];
+        NSIndexPath *myindexpath = [self.tableView indexPathForSelectedRow];
+        
+        int row = (int)[myindexpath row];
+        detailView.DetailModal = @[Title[row],Description[row],Type[row],Image[row]];
+    }
+    
 }
-*/
 
 @end
